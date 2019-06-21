@@ -3,6 +3,8 @@
     Passing Dictionaries to function
     and iterating through their items
 '''
+
+
 def print_users_info(**meta):
     for key, value in meta.items():
         print(key, ' is ', value)
